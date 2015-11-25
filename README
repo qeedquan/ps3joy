@@ -1,0 +1,12 @@
+A basic ps3 usb controller driver for 9front. There is no bluetooth support
+so you have to plug in the controller to use it.
+
+It binds to the keyboard and translates button presses to keys, the axes
+are translated into discrete values that trigger above a threshold.
+
+Keyboard bindings can be configured with the file $home/lib/ps3joy.cfg,
+look in the source code for a sample config (it uses a default binding if no
+config exist).
+
+Very janky all in all and limited, it was an just excercise to play 
+around with 9front usb support.
